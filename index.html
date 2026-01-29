@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="index.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfólio | Lorenzo</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul class="menu">
+            <li><a href="#inicio" class="navbarlink">Início</a></li>
+            <li><a href="#sobre" class="navbarlink">Sobre mim</a></li>
+            <li><a href="#atividades" class="navbarlink">Atividades</a></li>  
+        </ul>
+    </nav>
+
+    <section class="inicio" id="inicio">
+        <div class="inicio-b">
+         
+            <h1>Opa, aqui é o <br> <span class="typing-effect">Lorenzo.</span></h1>     
+        </div>
+        <div class="perfil">
+            <div class="fotoperfil">
+                <img src="Fotos/fotoperfil.jpg" alt="Foto de Perfil">
+            </div>
+            <div class="midia">
+                <a href="https://github.com/LAmentt" target="_blank"><i class="bx bxl-github"></i></a>
+                <a href="https://www.linkedin.com/in/lorenzo-amentt-5542112b2/" target="_blank"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="https://www.instagram.com/amentt_lorenzo?igsh=MTZjbG8wejZxY242OA=="><i class='bx bxl-instagram'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="sobre" id="sobre">
+        <div class="fotoprin">
+            <img src="Fotos/eu.jpg" alt="Foto Principal">
+        </div>
+        <div class="sobretexto">
+            <h2>Sobre <span>Mim</span></h2>
+            <p>Atualmente estou cursando o terceiro ano do Ensino Médio Técnico em Programação no SESI de Florianópolis e possuo p
+                roficiência em desenvolvimento Web, com conhecimentos sólidos em HTML, CSS e JavaScript. Sou integrante do
+                 Grupo de Robótica TainhaTec, onde atuo duplamente: como programador principal do robô, utilizando a linguagem 
+                 Java, e na área de Marketing e Gestão, sendo responsável pelo gerenciamento de mídias sociais (Instagram), controle 
+                 financeiro e pelo desenvolvimento de materiais institucionais como portfólios e folders.
+            </p>
+            <br>
+            <p>
+                <a class="botao3" href="LINK_DO_SEU_CURRICULO" target="_blank">Currículo</a>
+            </p>
+            <div class="fotos-extra">
+                <img src="Fotos/role.jpg" alt="Robótica">
+                <img src="Fotos/robotica.jpg" alt="Equipe">
+            </div>
+        </div>
+    </section>
+
+    <section id="atividades" class="atv">
+        <h1>SELECIONE A <span>MATÉRIA</span></h1>
+        
+        <div class="container-materias">
+
+            <div class="card-game" onclick="toggleCard(this)">
+                <img class="card-bg bg-nat" alt="GIF Natureza"> 
+                <div class="card-title">Natureza</div>
+                
+                <div class="opcoes-trimestre">
+                    <a href="natureza1.html" class="link-tri">1º Trimestre</a>
+                    <a href="natureza2.html" class="link-tri">2º Trimestre</a>
+                    <a href="natureza3.html" class="link-tri">3º Trimestre</a>
+                </div>
+            </div>
+
+            <div class="card-game" onclick="toggleCard(this)">
+                <img class="card-bg bg-hum" alt="GIF Humanas">
+                <div class="card-title">Humanas</div>
+                <div class="opcoes-trimestre">
+                    <a href="humanas1.html" class="link-tri">1º Trimestre</a>
+                    <a href="humanas2.html" class="link-tri">2º Trimestre</a>
+                    <a href="humanas3.html" class="link-tri">3º Trimestre</a>
+                </div>
+            </div>
+
+            <div class="card-game" onclick="toggleCard(this)">
+                <img class="card-bg bg-mat" alt="GIF Matemática">
+                <div class="card-title">Matemática</div>
+                <div class="opcoes-trimestre">
+                    <a href="matematica1.html" class="link-tri">1º Trimestre</a>
+                    <a href="matematica2.html" class="link-tri">2º Trimestre</a>
+                    <a href="matematica3.html" class="link-tri">3º Trimestre</a>
+                </div>
+            </div>
+
+            <div class="card-game" onclick="toggleCard(this)">
+                <img class="card-bg bg-lin" alt="GIF Linguagens">
+                <div class="card-title">Linguagens</div>
+                <div class="opcoes-trimestre">
+                    <a href="linguagem1.html" class="link-tri">1º Trimestre</a>
+                    <a href="linguagem2.html" class="link-tri">2º Trimestre</a>
+                    <a href="linguagem3.html" class="link-tri">3º Trimestre</a>
+                </div>
+            </div>
+
+            <div class="card-game" onclick="toggleCard(this)">
+                <img class="card-bg bg-mds" alt="GIF MDS">
+                <div class="card-title">Modelagem de S.</div>
+                <div class="opcoes-trimestre">
+                    <a href="mds1.html" class="link-tri">1º Trimestre</a>
+                    <a href="mds2.html" class="link-tri">2º Trimestre</a>
+                    <a href="mds3.html" class="link-tri">3º Trimestre</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="index.js" defer></script>
+</body>
+</html>
